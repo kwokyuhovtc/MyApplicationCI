@@ -15,6 +15,6 @@ public class CalculatorTest {
     public void substract_test(){
         Calculator c = new Calculator();
         int result = c.substract(2, 2);
-        Assert.assertEquals(4, result);
+        Assert.assertEquals(0, result);
     }
 }
